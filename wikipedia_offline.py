@@ -1,6 +1,6 @@
 """
 Enhanced Offline Wikipedia Viewer with Optimized Search
-RAM Usage: ~8-10 GB (down from 26 GB)
+RAM Usage: ~8-10 GB 
 Features:
 -Fast search using prefix trees and word indices
 -Progressive indexing with immediate availability
@@ -681,4 +681,5 @@ if __name__ == '__main__':
         app.run(host='127.0.0.1', port=5000, debug=False, threaded=True)
     except KeyboardInterrupt:
         print("\nShutting down...")
+
         sys.exit(0)
