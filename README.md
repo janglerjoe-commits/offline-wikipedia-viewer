@@ -89,4 +89,4 @@ The application loads the Wikipedia index into memory for fast lookups, while ar
 
 ## License
 
-MIT License - see [LICENSE.txt](LICENSE.txt) for details.
+MIT License - see [LICENSE.txt](LICENSE) for details.
