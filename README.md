@@ -67,6 +67,7 @@ offline-wikipedia-viewer/
 ├── requirements.txt         # Python dependencies
 ├── README.md
 ├── LICENSE.txt
+├── screenshot.png
 └── .gitignore
 ```
 
