@@ -668,11 +668,6 @@ if __name__ == '__main__':
     
     print("Files found. Starting indexing...")
     print("Server available at http://127.0.0.1:5000/")
-    print("\nRAM Optimizations:")
-    print("- Prefix index: Only 2-3 char prefixes (not 1)")
-    print("- Word index: Full words only, NO substrings")
-    print("- Expected RAM: ~8-10 GB (down from 26 GB)")
-    print("- Search quality: Same as original")
     print("- Search available immediately as articles are indexed")
     
     threading.Thread(target=load_index, daemon=True).start()
@@ -683,3 +678,4 @@ if __name__ == '__main__':
         print("\nShutting down...")
 
         sys.exit(0)
+
