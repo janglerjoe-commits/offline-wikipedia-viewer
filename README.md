@@ -30,7 +30,7 @@ Keep the files compressed - the application reads them directly in `.bz2` format
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/offline-wikipedia-viewer.git
+git clone https://github.com/janglerjoe-commits/offline-wikipedia-viewer.git
 cd offline-wikipedia-viewer
 
 # Create data directory and move downloaded files
