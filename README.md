@@ -12,7 +12,7 @@ A lightweight offline Wikipedia browser built with Python and Flask. Search and 
 ## Requirements
 
 - Python 3.7+
-- ~8-10 GB RAM
+- ~8-14 GB RAM
 - ~22 GB disk space for Wikipedia dump files
 
 ## Setup
