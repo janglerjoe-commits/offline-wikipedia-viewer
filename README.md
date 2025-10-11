@@ -24,7 +24,7 @@ Download these files from [https://dumps.wikimedia.org/enwiki/](https://dumps.wi
 - `enwiki-YYYYMMDD-pages-articles-multistream-index.txt.bz2`
 - `enwiki-YYYYMMDD-pages-articles-multistream.xml.bz2`
 
-Keep the files compressed - the application reads them directly in `.bz2` format.
+Keep the files compressed the application reads them directly in `.bz2` format.
 
 ### 2. Install
 
@@ -72,7 +72,7 @@ offline-wikipedia-viewer/
 ```
 
 ## Screenshot
-[Offline Wikipedia Viewer Interface](screenshot.png)
+Interface screenshot (screenshot.png)
 
 ## Applications
 Offline LLM, Apocalypse, War, Education, Research, Emergency Services, Remote Work, Field Studies, Disaster Response, Healthcare.
@@ -83,9 +83,13 @@ The application loads the Wikipedia index into memory for fast lookups, while ar
 
 ## Limitations
 
-- Text-only (images not included)
-- Some complex Wikipedia formatting may not render perfectly
+- Text only (images not included)
+- Some Wikipedia formatting may not render perfectly
 - External links require internet connection
+
+
+## PS
+- Didnt want to use huge files when the compressed file was in the 20's of gb's
 
 ## License
 
